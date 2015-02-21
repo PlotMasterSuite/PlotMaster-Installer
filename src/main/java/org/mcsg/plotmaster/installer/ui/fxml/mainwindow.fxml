@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="276.0" layoutY="181.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+          <RowConstraints fillHeight="false" minHeight="10.0" prefHeight="40.0" vgrow="NEVER" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane GridPane.rowIndex="2">
+              <columnConstraints>
+                <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" maxWidth="250.0" minWidth="10.0" prefWidth="250.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="275.0">
+                     <children>
+                        <VBox id="tab_pane" layoutX="64.0" layoutY="74.0" prefHeight="250.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Button id="steps" depthTest="DISABLE" mnemonicParsing="false" prefWidth="250.0" styleClass="tab_buttons" text="Steps">
+                                 <VBox.margin>
+                                    <Insets left="-7.0" right="-8.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="button1" fx:id="button1" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="275.0" style="-fx-alignment: center_left;" styleClass="tab_buttons" text="1. Basic Options">
+                                 <font>
+                                    <Font name="Blazed" size="13.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" top="5.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="button2" mnemonicParsing="false" prefHeight="40.0" prefWidth="275.0" styleClass="tab_buttons" text="2. Backends">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="button3" mnemonicParsing="false" prefHeight="40.0" prefWidth="275.0" styleClass="tab_buttons" text="3. Configurations">
+                                 <VBox.margin>
+                                    <Insets bottom="7.0" />
+                                 </VBox.margin>
+                              </Button>
+                              <Button id="button4" mnemonicParsing="false" prefHeight="40.0" prefWidth="275.0" styleClass="tab_buttons" text="4. Finish">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="7.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane id="content" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+            <MenuBar id="topbar" prefHeight="30.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+               <GridPane.margin>
+                  <Insets top="-1.0" />
+               </GridPane.margin>
+            </MenuBar>
+            <ToolBar id="toolbar" prefHeight="40.0" prefWidth="200.0" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

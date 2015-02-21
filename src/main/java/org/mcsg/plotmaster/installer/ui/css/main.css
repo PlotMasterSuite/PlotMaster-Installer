@@ -1,0 +1,127 @@
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf');
+} 
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.ttf');
+} 
+
+#topbar* {
+	-fx-background-color: #0288D1;
+	-fx-text-fill: #fffff;
+}
+
+.menu .label {
+    -fx-text-fill: white;
+    -fx-font-family: 'Roboto';
+}
+
+#toolbar {
+	-fx-background-color: #03A9F4;
+	-fx-text-fill: #fffff;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10 , 0.0 , 0 , 5 );
+}
+
+.tab_buttons{
+	-fx-text-fill: #000;
+	-fx-font-size: 18px;
+	-fx-background-radius: 0;
+	-fx-font-family:  'Roboto', sans-serif;
+	-fx-font-smoothing-type: lcd;
+	-fx-alignment: center_left;
+	-fx-background-color: #fff;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 5 , 0.0 , -2 , 1 );
+}
+
+.tab_buttons:hover{
+	-fx-background-color: #eee;
+}
+
+ 
+#steps{
+	-fx-font-size: 15px;
+	-fx-background-color: #22A7F0;
+		-fx-alignment: center;
+		-fx-text-fill: #fff;
+}
+
+#content{
+	-fx-background-color: #fff;
+}
+
+/*
+#button1{
+	-fx-background-color: #9C27B0;	
+}
+#button2{
+	-fx-background-color: #7C4DFF;	
+}
+#button3{
+	-fx-background-color: #3F51B5;	
+}
+#button4{
+		-fx-background-color: #00BCD4;	
+}*/
+/*
+#button6{
+	-fx-background-color: #EF4836;	
+}
+#button5{
+	-fx-background-color: #ef5836;	
+}
+#button4{
+	-fx-background-color: #ef6436;	
+}
+#button3{
+		-fx-background-color: #ef7436;	
+}
+#button2{
+		-fx-background-color: #ef8636;	
+}
+#button1{
+	-fx-background-color: #ef9636;	
+}*/
+
+
+/*
+#button1{
+	-fx-background-color: #EF4836;	
+}
+#button2{
+	-fx-background-color: #ef5836;	
+}
+#button3{
+	-fx-background-color: #ef6436;	
+}
+#button4{
+		-fx-background-color: #ef7436;	
+}
+#button5{
+		-fx-background-color: #ef8636;	
+}
+#button6{
+	-fx-background-color: #ef9636;	
+}
+*
+
+#button1{
+	-fx-background-color: #F89406;	
+}
+#button2{
+	-fx-background-color: #f89806;	
+}
+#button3{
+	-fx-background-color: #f8a406;	
+}
+#button4{
+		-fx-background-color: #f8b106;	
+}
+#button5{
+		-fx-background-color: #f8ba06;	
+}
+#button6{
+	-fx-background-color: #f8c206;	
+}*/
